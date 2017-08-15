@@ -8,6 +8,11 @@ function initMap() {
    
    var DarkAll = new L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGF3MTQ1IiwiYSI6ImNpbXJlamZxNzAweGt1cmtrZ2Z2ZXZseXcifQ.1jrOxO5uFc6rWEyDKdI4dQ').addTo(map);
    
+  $.getJSON('map.geojson', function(data) {
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        (function(layer, properties) {
+        });
    }
    
 initMap();
