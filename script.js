@@ -10,6 +10,6 @@ function initMap() {
    
    }
    
-   initMap();
+initMap();
    
     
