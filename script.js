@@ -1,7 +1,7 @@
 function initMap() {
 
   var map = L.map('map', {
-    center: [0, 0],
+    center: [37.8, -96],
     zoom: 3, 
     scrollWheelZoom: false
    });
