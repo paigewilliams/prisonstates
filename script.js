@@ -11,7 +11,6 @@ function initMap() {
    L.geoJson(states).addTo(map);
    
    }
-   }
    
    initMap();
    
